@@ -10,6 +10,9 @@
 
 An automated tool for scraping target profiles from Iranian messengers
 
+---
+
+## 🖼 Screenshot
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ar33s0/SUDIM/main/screenshots/01.png" alt="SUDIM Screenshot" width="600" />
