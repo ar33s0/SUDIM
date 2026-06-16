@@ -99,6 +99,7 @@ python3 main.py {phone_number}
 
 ## 🤝 Contribution | مشارکت
 🇮🇷 پیشنهادات و مشارکت شما باعث پیشرفت این پروژه می‌شه 🌱
+
 🇬🇧 Suggestions and contributions help this project grow 🌱
 
 ---
