@@ -7,7 +7,9 @@
 **S**crap **U**ser **D**ata From **I**ranian **M**essengers
 
 یک ابزار برای جمع‌آوری پروفایل هدف از پیام‌رسان‌های ایرانی
+
 An automated tool for scraping target profiles from Iranian messengers
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/ar33s0/SUDIM/main/screenshots/01.png" alt="SUDIM Screenshot" width="600" />
