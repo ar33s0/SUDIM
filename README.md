@@ -104,5 +104,15 @@ python3 main.py {phone_number}
 
 ---
 
+## ⭐ Support | حمایت
+اگر این پروژه براتون مفید بود، لطفاً یک ستاره ⭐ به ریپازیتوری بدید.
+این کار به دیده‌ شدن پروژه کمک میکنه.
+
+
+If you found this project useful, please give the repository a ⭐ star.
+This helps the project get noticed.
+
+---
+
 ## 📜 License | لایسنس
 این پروژه تحت لایسنس MIT منتشر شده. | This project is licensed under the MIT License.
