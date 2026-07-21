@@ -93,6 +93,15 @@ def get_data(number_phone):
             birthday = title_birthday + ', ' + subtitle_birthday
         except:
             birthday = None
+
+
+        #id number
+        try: 
+            page_url = page.url
+            id_number_match = re.search(r'#(\d+)', page_url)
+            id_number = id_number_match.group(1)
+        except: 
+            id_number = None
             
         #name
         name = page.locator('.Profile .fullName').text_content(timeout=200)
@@ -155,7 +164,8 @@ def get_data(number_phone):
 [bold]Profiles:[/bold] {img_counter}
 [bold]Gender:[/bold] {gender}
 [bold]BirthDay:[/bold] {birthday}
-[bold]IsPremium:[/bold] {is_premium}[/bright_yellow]''')
+[bold]IsPremium:[/bold] {is_premium} 
+[bold]IdNumber:[/bold] {id_number} [/bright_yellow]''')
     
 if __name__ == '__main__':
     number_phone = input('Enter Number Phone: ')
