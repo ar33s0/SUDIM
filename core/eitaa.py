@@ -77,6 +77,14 @@ def get_data(number_phone):
 
         #name
         name = page.locator('.profile-name').first.text_content()
+
+        #id number
+        try: 
+            page_url = page.url
+            id_number_match = re.search(r'#(\d+)', page_url)
+            id_number = id_number_match.group(1)
+        except: 
+            id_number = None
         #last seen
         last_seen = page.locator('.profile-subtitle').text_content()
         #username
@@ -136,7 +144,8 @@ def get_data(number_phone):
 [bold]UserName:[/bold] {username}
 [bold]LastSeen:[/bold] {last_seen}
 [bold]AboutMe:[/bold] {about_me}
-[bold]Profiles:[/bold] {img_counter} [/bright_yellow]''')
+[bold]Profiles:[/bold] {img_counter} 
+[bold]IdNumber:[/bold] {id_number} [/bright_yellow]''')
 
 if __name__ == '__main__':
     number_phone = input('Enter Number Phone: ')
@@ -144,3 +153,4 @@ if __name__ == '__main__':
         number_phone = input('Enter Number Phone Again(Example: "91288899990"): ')
     result = get_data(number_phone)
     console.print(result)
+
