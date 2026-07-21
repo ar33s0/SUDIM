@@ -57,6 +57,19 @@ It can collect data from Bale, Rubika, Eitaa, Soroush+, and Shad.
 
 ---
 
+## 📊 Messengers Status | وضعیت پیامرسان ها
+
+| پیامرسان / Messenger | نام / Name | آخرین بازدید / Last Seen | نام کاربری / Username | بیوگرافی / Bio | آیدی عددی / Numeric ID | پرمیوم / Premium | جنسیت / Gender | تاریخ تولد / Birthdate |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| بله / Bale | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| ایتا / Eitaa | ✅ | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
+| ایگپ / iGap | ⏩ | ⏩ | ⏩ | ⏩ | ⏩ | ⏩ | ⏩ | ⏩ |
+| روبیکا / Rubika | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| شاد / Shad | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
+| سروش / Soroush | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+
+---
+
 ## 📦 Requirements | نیازمندی‌ها
 
 - Python 3+
