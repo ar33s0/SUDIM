@@ -3,6 +3,8 @@ from time import sleep
 import sys
 #import concurrent.futures
 from core import bale, rubika, eitaa, splus, shad
+import json
+
 console = Console()
 
 console.print("""[cyan][bold]
@@ -27,7 +29,7 @@ else:
     while len(number_phone) != 10 or number_phone[0] != "9":
         number_phone = input('Enter Number Phone Again(Example: "91288899990"): ')
 
-#so i dont have a good internet
+#so i dont have a good internet ):
 #with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
     #future_bale = executor.submit(bale, number_phone)
     #future_rubika = executor.submit(rubika, number_phone)
@@ -62,6 +64,11 @@ for name, func in funcs.items():
     except Exception as e: 
         results[name] = f'{name}: \n {e}'
 
+with open(f'profile/{number_phone}/data.json', 'w', encoding='utf-8') as file: 
+    json.dump(results, file, indent=4, ensure_ascii=False)
+
 for name, result in results.items(): 
     console.print(result)
     print('='*24)
+
+console.print(f'[Blue]Data and profiles saved to profile/{number_phone}[/blue]')
