@@ -83,7 +83,7 @@ It can collect data from Bale, Rubika, Eitaa, Soroush+, and Shad.
 
 ```bash
 git clone https://github.com/ar33s0/SUDIM.git
-cd sudim
+cd SUDIM
 pip3 install -r requirements.txt
 playwright install chromium
 ```
