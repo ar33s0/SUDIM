@@ -70,5 +70,3 @@ with open(f'profile/{number_phone}/data.json', 'w', encoding='utf-8') as file:
 for name, result in results.items(): 
     console.print(result)
     print('='*24)
-
-console.print(f'[Blue]Data and profiles saved to profile/{number_phone}[/blue]')
