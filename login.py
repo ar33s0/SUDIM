@@ -11,7 +11,7 @@ if not(os.path.exists('browsers/bale_browser')):
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
             user_data_dir='./browsers/bale_browser',
             headless=False,
-            executable_path='/usr/bin/chromium',
+            #executable_path='/usr/bin/chromium',
             no_viewport=True
         )    
         page = context.new_page()
@@ -29,7 +29,7 @@ if not(os.path.exists('browsers/rubika_browser')):
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
             user_data_dir='./browsers/rubika_browser',
             headless=False,
-            executable_path='/usr/bin/chromium',
+            #executable_path='/usr/bin/chromium',
             no_viewport=True
         )    
         page = context.new_page()
@@ -46,7 +46,7 @@ if not(os.path.exists('browsers/splus_browser')):
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
             user_data_dir='./browsers/splus_browser',
             headless=False,
-            executable_path='/usr/bin/chromium',
+            #executable_path='/usr/bin/chromium',
             no_viewport=True
         )    
         page = context.new_page()
@@ -64,7 +64,7 @@ if not(os.path.exists('browsers/eitaa_browser')):
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
             user_data_dir='./browsers/eitaa_browser',
             headless=False,
-            executable_path='/usr/bin/chromium',
+            #executable_path='/usr/bin/chromium',
             no_viewport=True
         )    
         page = context.new_page()
@@ -82,7 +82,7 @@ if not(os.path.exists('browsers/shad_browser')):
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
             user_data_dir='./browsers/shad_browser',
             headless=False,
-            executable_path='/usr/bin/chromium',
+            #executable_path='/usr/bin/chromium',
             no_viewport=True
         )    
         page = context.new_page()
@@ -100,7 +100,7 @@ if not(os.path.exists('browsers/igap_browser')):
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
             user_data_dir='./browsers/igap_browser',
             headless=False,
-            executable_path='/usr/bin/chromium',
+            #executable_path='/usr/bin/chromium',
             no_viewport=True
         )    
         page = context.new_page()
