@@ -89,6 +89,16 @@ def get_data(number_phone):
             username = page.locator('[data-testid="username"] span').text_content(timeout=300)
         except: 
             username = None
+
+        #id number
+        try: 
+            page_url = page.url
+            id_number_match = re.search(r'=(\d+)', page_url)
+            id_number = id_number_match.group(1)
+        except: 
+            id_number = None
+
+
         #about me
         try: 
             about_me = ''
@@ -146,7 +156,8 @@ def get_data(number_phone):
 [bold]UserName:[/bold] {username}
 [bold]LastSeen:[/bold] {last_seen}
 [bold]AboutMe:[/bold] {about_me}
-[bold]Profiles:[/bold] {img_counter} [/bright_yellow]''')
+[bold]Profiles:[/bold] {img_counter}
+[bold]IdNumber:[/bold] {id_number}[/bright_yellow]''')
 
 if __name__ == '__main__':
     number_phone = input('Enter Number Phone: ')
