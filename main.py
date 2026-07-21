@@ -64,9 +64,6 @@ for name, func in funcs.items():
     except Exception as e: 
         results[name] = f'{name}: \n {e}'
 
-with open(f'profile/{number_phone}/data.json', 'w', encoding='utf-8') as file: 
-    json.dump(results, file, indent=4, ensure_ascii=False)
-
 for name, result in results.items(): 
     console.print(result)
     print('='*24)
