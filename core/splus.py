@@ -15,7 +15,7 @@ def get_data(number_phone):
         context = p.chromium.launch_persistent_context(
             user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
             user_data_dir='./browsers/splus_browser',
-            headless=False,
+            headless=True,
             executable_path='/usr/bin/chromium',
             viewport={'width': 1920, 'height': 1080},
             #no_viewport=True
